@@ -1,0 +1,116 @@
+body{
+    margin: 100px 250px;
+    
+}
+
+
+/*Div Entete*/
+.conEnt{
+    width: 500px;
+    height: auto;
+
+}
+
+.contenu h1{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Verdana';
+    color: #0E905A;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Div container*/
+.container{
+    top: 600px;
+    left: 300px;
+}
+.bas h3{
+    bottom: 10px;
+    left: 10px;
+}
+.menu ul {
+    display: flex;
+    padding: 10px 10px;
+    border-bottom: 1px solid #0E905A;
+}
+.menu ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 10px 15px;
+   
+}
+
+.menu ul li a{
+    color:#0E905A;
+    font-size: 15px;
+    font-family: "Verdana";
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contenu{
+    margin: 200px 200px;
+}
+
+
+/* Responsive*/
+@media screen and (max-width: 1000px) {
+    body{
+        margin: 10px 170px;
+    }   
+    menu ul {
+        display: flex;
+        padding: 5px 5px;
+        border-bottom: 1px solid #0E905A;
+    }
+    .menu ul li {
+        padding: 5px 10px;
+       
+    }
+    
+    .menu ul li a{
+        font-size: 10px;
+       
+    }
+    
+    .contenu{
+        margin: 150px 150px;
+    }
+
+    .menu{
+        width: 500px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 850px) {
+    body{
+        margin: 30px 100px;
+    }   
+    menu ul {
+        display: flex;
+        padding: 3px 3px;
+        border-bottom: 1px solid #0E905A;
+    }
+    .menu ul li {
+        padding: 2px 5px;
+       
+    }
+    
+    .menu ul li a{
+        font-size: 10x;
+       
+    }
+    
+    .contenu{
+        margin: 100px 100px;
+    }
+
+    .menu{
+        width: 500px;
+    }
+    
+    
+}
